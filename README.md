@@ -1,5 +1,4 @@
 # AtividadeProgramacaoParaInternet2Bimestre
-
 import express, { json } from 'express';
 const app = express();
 app.use(json());
@@ -7,7 +6,7 @@ app.use(json());
 // Array para armazenar os produtos
 let produtos = [];
 
-// Rotas da API 
+// Rotas da API
 
 // Listar todos os produtos
 app.get('/produtos', (req, res) => {
